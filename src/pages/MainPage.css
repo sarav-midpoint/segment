@@ -1,0 +1,17 @@
+button {
+    padding: 0.6rem 0.8rem;
+    margin: 2% 10%;
+    border: 3px rgb(248, 248, 248) solid;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 10%;
+}
+button:hover {
+    background-color: rgb(113, 114, 114);
+}
+
+.main-page {
+  background-color: rgb(189, 189, 189);
+  min-height: 100vh;
+}

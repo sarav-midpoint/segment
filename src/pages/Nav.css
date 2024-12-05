@@ -1,0 +1,12 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0fa3b1;
+}
+
+.navbar p {
+    padding: 1%;
+    color: rgb(250, 241, 241);
+    font-size: 20px;
+}

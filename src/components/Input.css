@@ -1,0 +1,18 @@
+input {
+  border: 2px #ccc solid;
+  padding: 12px 28px 12px 12px;
+  border-radius: 4px;
+  width: 80%;
+  margin: 4% 0 4% 0;
+}
+
+input:focus {
+  background-color: rgb(232, 232, 232);
+  /* border: 3px solid #555; */
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 95%;
+  }
+}
