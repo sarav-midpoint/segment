@@ -49,10 +49,10 @@ const SaveSegment = ({ close }) => {
         [schema.value]: schema.label,
       })),
     };
-    console.log("Sending to server: ", JSON.stringify(segmentData));
     // debugger;
     dispatch(addSegment(segmentData));
-    alert("Open the console");
+    console.log("Sending to server: ", JSON.stringify(segmentData));
+    alert(JSON.stringify(segmentData));
     // dispatch(addNewSegment(segmentData));
     //   close();
   };
